@@ -1,12 +1,19 @@
 public class TodoItem
 {
-    public long Id {
+    public long Id
+    {
         get; set;
-        }
-    public string Name {
+    }
+    public string Name
+    {
         get; set;
-        }
-    public bool IsComplete {
+    }
+    public bool IsComplete
+    {
         get; set;
-        }
+    }
+    public string Secret
+    {
+        get; set;
+    }
 }
